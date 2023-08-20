@@ -1,0 +1,62 @@
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for sidebar and content */
+.container {
+    display: flex; /* Use flexbox for layout */
+    height: 100vh; /* Set the container to fill the viewport vertically */
+}
+
+/* Main content styling */
+.content {
+    flex: 1; /* Allow content to flex and take remaining width */
+    padding: 20px;
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 500px;
+    padding: 20px;
+}
+
+/* Sidebar headings */
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+/* Sidebar links */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sidebar active state */
+.sidebar.active {
+    transform: translateX(0); /* Slide sidebar into view */
+}
+
+/* Sidebar hidden state */
+.sidebar {
+    transform: translateX(100%); /* Slide sidebar out of view */
+    /* ... other styling ... */
+}
