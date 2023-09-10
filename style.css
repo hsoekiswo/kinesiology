@@ -1,3 +1,11 @@
+body {
+    font-family: Helvetica;
+}
+
+#content {
+    padding-bottom: 25%;
+}
+
 /* Style the menu bar at the bottom of the screen */
 #bottom-menu {
     position: fixed;
@@ -19,14 +27,16 @@
 /* Style each menu item */
 #bottom-menu li {
     flex: 1;
+    font-size: 60px;
     text-align: center;
 }
 
 /* Style the links inside the menu */
 #bottom-menu a {
     display: block;
-    padding: 10px 0;
     color: #fff;
+    margin-top: 10%;
+    margin-bottom: 10%;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
