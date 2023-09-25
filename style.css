@@ -3,6 +3,12 @@ body {
     max-width: 55rem;
 }
 
+#back-btn {
+    position: fixed;
+    top: 20px; /* Adjust this value to position the button vertically */
+    left: 20px; /* Adjust this value to position the button horizontally */
+  }
+
 h1 {
     font-size: 36px;
 }

@@ -1,8 +1,5 @@
-const toggleSidebarBtn = document.getElementById("toggleSidebar");
-const sidebar = document.getElementById("sidebar");
-const sidebarContent = document.getElementById("sidebar-content");
+const btnBack = document.querySelector('.back-btn');
 
-toggleSidebarBtn.addEventListener("click", () => {
-    sidebar.classList.toggle("active");
-    sidebarContent.classList.toggle("active");
-});
+btnBack.addEventListener('click', () => {
+    window.history.back();
+})
