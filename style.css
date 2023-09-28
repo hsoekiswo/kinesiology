@@ -3,9 +3,29 @@ body {
     max-width: 55rem;
 }
 
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+}
+
+#header h1 {
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+
+#content {
+    padding-top: 2.5%;
+}
+
 #back-btn {
     position: fixed;
-    top: 20px; /* Adjust this value to position the button vertically */
+    top: 15px; /* Adjust this value to position the button vertically */
     left: 20px; /* Adjust this value to position the button horizontally */
   }
 
